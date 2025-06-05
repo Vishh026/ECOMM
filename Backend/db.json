@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "title": "string",
+      "price": 0.1,
+      "description": "string",
+      "category": "string",
+      "image": "http://example.com"
+    }
+  ],
+  "user": [
+    {
+      "id": 0,
+      "username": "hey",
+      "email": "hey@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "IikJWBy6ngV_pTsr2ZnEp",
+      "username": "Vishnavu",
+      "email": "fkgj@gmail.com",
+      "password": "tgngn"
+    },
+    {
+      "id": "w8knNTj2RQj3Sfxlt7gyu",
+      "username": "janvi",
+      "email": "raysingjanhvi@gmail.com",
+      "password": "janvi"
+    }
+  ],
+  "cart": [
+    {
+      "id": 0,
+      "userId": 0,
+      "products": []
+    }
+  ]
+}
