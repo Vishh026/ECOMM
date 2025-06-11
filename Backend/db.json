@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 0,
+      "id": "0",
       "title": "string",
       "price": 0.1,
       "description": "string",
@@ -11,7 +11,7 @@
   ],
   "user": [
     {
-      "id": 0,
+      "id": "0",
       "username": "hey",
       "email": "hey@gmail.com",
       "password": "123"
@@ -27,11 +27,23 @@
       "username": "janvi",
       "email": "raysingjanhvi@gmail.com",
       "password": "janvi"
+    },
+    {
+      "id": "fq2OYW6oKPqtAKTUfKPL2",
+      "username": "v",
+      "email": "vaishnavidhavan026@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "iYyN0zWOYtffUxU4-YFe8",
+      "username": "vaishnavi",
+      "email": "heyht@gmail.com",
+      "password": "34"
     }
   ],
   "cart": [
     {
-      "id": 0,
+      "id": "0",
       "userId": 0,
       "products": []
     }

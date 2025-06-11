@@ -11,6 +11,7 @@ const Register = () => {
 
   const registerHandler = (user) => {
     user.id = nanoid();
+    user.isAdmin = false
     dispatch(asyncRegister(user))
     reset()
     navigate("/login")
