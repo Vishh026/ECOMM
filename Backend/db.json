@@ -39,6 +39,13 @@
       "username": "vaishnavi",
       "email": "heyht@gmail.com",
       "password": "34"
+    },
+    {
+      "id": "U09LeYNZIc_q_M05GNOIU",
+      "username": "Vishnavu",
+      "email": "gjfg@gmail.com",
+      "password": "233",
+      "isAdmin": false
     }
   ],
   "cart": [
