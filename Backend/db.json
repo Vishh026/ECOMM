@@ -14,31 +14,36 @@
       "id": "0",
       "username": "hey",
       "email": "hey@gmail.com",
-      "password": "123"
+      "password": "123",
+      "isAdmin": true
     },
     {
       "id": "IikJWBy6ngV_pTsr2ZnEp",
       "username": "Vishnavu",
       "email": "fkgj@gmail.com",
-      "password": "tgngn"
+      "password": "tgngn",
+      "isAdmin": false
     },
     {
       "id": "w8knNTj2RQj3Sfxlt7gyu",
       "username": "janvi",
       "email": "raysingjanhvi@gmail.com",
-      "password": "janvi"
+      "password": "janvi",
+      "isAdmin": false
     },
     {
       "id": "fq2OYW6oKPqtAKTUfKPL2",
       "username": "v",
       "email": "vaishnavidhavan026@gmail.com",
-      "password": "123"
+      "password": "123",
+      "isAdmin": false
     },
     {
       "id": "iYyN0zWOYtffUxU4-YFe8",
       "username": "vaishnavi",
       "email": "heyht@gmail.com",
-      "password": "34"
+      "password": "34",
+      "isAdmin": false
     },
     {
       "id": "U09LeYNZIc_q_M05GNOIU",

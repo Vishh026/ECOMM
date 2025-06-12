@@ -10,6 +10,7 @@ const Login = () => {
 
   const loginHandler = (user) => {
     user.id = nanoid()
+    console.log(user)
     reset()
     dispatch(asyncLoginUser(user))
   }
