@@ -1,14 +1,12 @@
 import axios from "../../Api/axiosConfig.jsx"
-import { loadUser } from "../reducers/UserSlice.jsx";
+import { loadUser, removeUser } from "../reducers/UserSlice.jsx";
 
 
 // regiter user in databse (db.json > backend)
 export const asyncRegister = (user) => async(dispatch,getState) => {
     try {
         const res = await axios.post("/user",user);
-        console.log(res);
-        
-        
+        console.log(res);        
     } catch (error) {
         console.log(error)
     }
@@ -34,7 +32,10 @@ export const asyncLoginUser = (user) => async(dispatch,getState) => {
 // logout user
 export const asyncLogoutUser = () => (dispatch,getState) => {
     try {
-        localStorage.removeItem("user","")
+        localStorage.removeItem("user")
+        dispatch(removeUser())
+        console.log("User has been Logout");
+        
     } catch (error) {
         console.log(error)
     }

@@ -1,12 +1,20 @@
 {
   "products": [
     {
-      "id": "0",
-      "title": "string",
-      "price": 0.1,
-      "description": "string",
-      "category": "string",
-      "image": "http://example.com"
+      "id": "-TI8EbFM2B6ncAZ5XT0sg",
+      "title": "DEELMO Men's Stylish Solid Satin Casual Shirt for Men Full Sleeves| Poly Satin Silk Shirt",
+      "price": "19999",
+      "description": "Fabric : Made With Satin Silk Fabric | Material: Poly Satin With soft finish and rich look, guaranteed shrinkage post washing. These DEELMO Shirts are reliability and durability to offer you men's lifestyle essentials that",
+      "category": "clothing",
+      "image": "https://m.media-amazon.com/images/I/61R1R+tsmLL._SX679_.jpg"
+    },
+    {
+      "id": "wuCG9HjZ7btNMzGpA93cE",
+      "title": "mvn",
+      "price": "",
+      "description": "",
+      "category": "",
+      "image": ""
     }
   ],
   "user": [
@@ -16,27 +24,6 @@
       "email": "hey@gmail.com",
       "password": "123",
       "isAdmin": true
-    },
-    {
-      "id": "IikJWBy6ngV_pTsr2ZnEp",
-      "username": "Vishnavu",
-      "email": "fkgj@gmail.com",
-      "password": "tgngn",
-      "isAdmin": false
-    },
-    {
-      "id": "w8knNTj2RQj3Sfxlt7gyu",
-      "username": "janvi",
-      "email": "raysingjanhvi@gmail.com",
-      "password": "janvi",
-      "isAdmin": false
-    },
-    {
-      "id": "fq2OYW6oKPqtAKTUfKPL2",
-      "username": "v",
-      "email": "vaishnavidhavan026@gmail.com",
-      "password": "123",
-      "isAdmin": false
     },
     {
       "id": "iYyN0zWOYtffUxU4-YFe8",
@@ -50,6 +37,41 @@
       "username": "Vishnavu",
       "email": "gjfg@gmail.com",
       "password": "233",
+      "isAdmin": false
+    },
+    {
+      "id": "WSc6BpnssNccZriH6D5Iw",
+      "username": "vaishnavi_24",
+      "email": "vishu@gmail.com",
+      "password": "12345",
+      "isAdmin": false
+    },
+    {
+      "id": "xPlQ_i_6iTSvhc_Raw2k1",
+      "username": "rahul",
+      "email": "rahul@gmail.com",
+      "password": "123",
+      "isAdmin": false
+    },
+    {
+      "id": "H7ySSOPkpUE3S_imoYiUt",
+      "username": "rahul12",
+      "email": "rahul12@gmail.com",
+      "password": "123",
+      "isAdmin": true
+    },
+    {
+      "id": "rBLlCJA_FNvOfx-hsNEiv",
+      "username": "vishnu dhavan",
+      "email": "vishnu@gmail.com",
+      "password": "123",
+      "isAdmin": false
+    },
+    {
+      "id": "dVbNNV1CuBSYJKy4nzV8f",
+      "username": "sakshi",
+      "email": "sakshitidme@gmail.com",
+      "password": "1234",
       "isAdmin": false
     }
   ],

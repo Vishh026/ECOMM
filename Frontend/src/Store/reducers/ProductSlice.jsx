@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
-    data :[]
+    products :[]
 }
 
 export const ProductSlice = createSlice({
@@ -9,11 +9,14 @@ export const ProductSlice = createSlice({
     initialState,
     reducers : {
         loadProduct : (state,action) => {
-            state.data = action.payload
+            // state.products = update the data 
+            // action.payload = take data from backend
+            state.products = action.payload
         }
+        
     }
 })
-
+// use it in store
 export default ProductSlice.reducer;
 
 export const {loadProduct} = ProductSlice.actions

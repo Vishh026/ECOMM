@@ -1,7 +1,15 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { useDispatch, useSelector } from "react-redux";
+import { NavLink, useNavigate } from "react-router-dom";
+import { asyncLogoutUser } from "../Store/Actions/UserAction";
 
 const Nav = () => {
+  const user = useSelector((state) => state.userReducer.users);
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+  const logoutHandler = () => {
+    dispatch(asyncLogoutUser())
+    navigate("/")
+  }
   return (
     <nav className="bg-[#0f0f0f] px-6 py-4 flex justify-between items-center shadow-lg border-b border-gray-800">
       {/* Logo */}
@@ -17,14 +25,6 @@ const Nav = () => {
         >
           Home
         </NavLink>
-
-        <NavLink
-          to="/login"
-          className="text-gray-400 hover:text-white hover:underline underline-offset-4 transition-all duration-200 ease-in-out"
-        >
-          Login
-        </NavLink>
-        
         <NavLink
           to="/products"
           className="text-gray-400 hover:text-white hover:underline underline-offset-4 transition-all duration-200 ease-in-out"
@@ -32,16 +32,36 @@ const Nav = () => {
           Products
         </NavLink>
 
-        <NavLink
+        {user ? (
+          <>
+            <NavLink
+              className="text-gray-400 hover:text-white hover:underline underline-offset-4 transition-all duration-200 ease-in-out"
+              to="/admin/createproduct"
+            >
+              Create Product
+            </NavLink>
+            <button onClick={logoutHandler}>Logout</button>
+          </>
+        ) : (
+          <>
+            <NavLink
+              to="/login"
+              className="text-gray-400 hover:text-white hover:underline underline-offset-4 transition-all duration-200 ease-in-out"
+            >
+              Login
+            </NavLink>
+          </>
+        )}
+
+        {/* <NavLink
           to="/cart"
           className="text-gray-400 hover:text-white hover:underline underline-offset-4 transition-all duration-200 ease-in-out"
         >
           Cart
-        </NavLink>
-
+        </NavLink> */}
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
